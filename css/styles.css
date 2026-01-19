@@ -1,3 +1,37 @@
-body{
-    
+
+
+.tamaño{
+    width: 379.37px;
+    height: 123.17px;
+    left: 5830px
+}
+.letra{
+    font-family: sans-serif
+}
+.contenedor{ 
+    width: 250px;;
+    height: 50px;
+}
+.flex{
+    position: absolute;
+    height: 500px;
+    gap: 200px;
+}
+.button{
+    border-radius: 5px;
+    width: 100px;
+    height:45px ;
+    background-color: #00AEFF;
+    border: none;
+    color: white;
+
+}
+.contenedor{
+    height: 100px;
+    width: 300px;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
 }
