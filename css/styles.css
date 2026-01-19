@@ -1,5 +1,4 @@
 
-
 .tamaño{
     width: 379.37px;
     height: 123.17px;
@@ -9,12 +8,12 @@
     font-family: sans-serif
 }
 .contenedor{ 
-    width: 250px;;
+    width: 350px;;
     height: 50px;
 }
 .flex{
     position: absolute;
-    height: 500px;
+    height: 700px;
     gap: 200px;
 }
 .button{
@@ -27,7 +26,7 @@
 
 }
 .contenedor{
-    height: 100px;
+    height: 50px;
     width: 300px;
 }
 .galeria {
