@@ -1,36 +1,146 @@
-
-.tamaño{
-    width: 379.37px;
-    height: 123.17px;
-    left: 5830px
+/* Card1 */
+.tamaño {
+  width: 379.37px;
+  height: 123.17px;
+  left: 5830px;
 }
-.letra{
-    font-family: sans-serif
+.letra {
+  font-family: sans-serif;
 }
-.contenedor{ 
-    width: 350px;;
-    height: 50px;
+.contenedor {
+  width: 350px;
+  height: 50px;
 }
-.flex{
-    position: absolute;
-    height: 700px;
-    gap: 200px;
+.flex {
+  position: absolute;
+  height: 700px;
+  gap: 200px;
 }
-.button{
-    border-radius: 5px;
-    width: 100px;
-    height:45px ;
-    background-color: #00AEFF;
-    border: none;
-    color: white;
-
+.button {
+  border-radius: 5px;
+  width: 100px;
+  height: 45px;
+  background-color: #00aeff;
+  border: none;
+  color: white;
 }
-.contenedor{
-    height: 50px;
-    width: 300px;
+.contenedor {
+  height: 50px;
+  width: 300px;
 }
 .galeria {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  /* Card2 */
 }
+
+.div1 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px 28px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+.div2 img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+.div3{
+  flex: 1px;
+}
+.titulo{
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: #111827;
+  font-family: sans-serif;
+}
+.texto{
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4b5563;
+  font-family: sans-serif;
+}
+.buttons{
+  display: flex;
+  gap: 12px;
+}
+.buttons2{
+  padding: 8px 18px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid transparent;
+}
+.button2 {
+  background: #00AEFF;
+  color: #111827;
+  border-color: #00AEFF;
+} 
+.button3{
+  background: transparent;
+  color: #1A2B49;
+  border-color: #1A2B49  ;
+}
+/* Card3 */
+.city-card {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  color: white;
+  overflow: hidden;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.info {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  max-width: 600px;
+}
+
+.date-time {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+
+/* Card4 */
